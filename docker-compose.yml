@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  jekyll:
+    container_name: opensource
+    # image: ruby:2.7.4
+    build:
+      context: .
+      args:
+        - RUBY_VERSION=2.7.4
+        - JEKYLL_VERSION=3.9.3
+    command: sh -c "bundle install && bundle exec jekyll serve --watch --force_polling --verbose --host=0.0.0.0"
+    stdin_open: true
+    tty: true
+    ports:
+      - 4000:4000
+    volumes:
+      - .:/srv/jekyll
+    environment:
+      - RUN_LOCAL=1
