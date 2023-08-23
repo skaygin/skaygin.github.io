@@ -1,2 +1,2 @@
 # skaygin.github.io
-Open source repositories
+My selected open source projects are listed here.

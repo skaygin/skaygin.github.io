@@ -1,8 +1,13 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+list_title: Repositories
+show_excerpts: true
 ---
 
-Some header text
+My selected repos are to be listed here. Still in progress...
+
+You may want to visit [my web site](https://serkankaygin.com/) or my [github](https://github.com/skaygin) page.
+
+
+
